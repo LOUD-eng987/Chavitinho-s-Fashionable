@@ -220,7 +220,55 @@ footer{background:var(--navy);color:#a9b0c5;text-align:center;padding:34px 22px;
 }
 </style>
 <!-- === FIM DO LINK DO INSTAGRAM === -->
-<p><small>Facebook</small>Chavitinhos Fashionable</p>
+<!-- === INÍCIO DO LINK DO FACEBOOK ESTILIZADO === -->
+<div class="facebook-link-card">
+    <div class="facebook-info">
+        <span class="facebook-tag">Facebook</span>
+        <a href="https://www.facebook.com/edilsonsimbin/" target="_blank" rel="noopener">@edilsonsimbin</a>
+    </div>
+</div>
+
+<style>
+.facebook-link-card {
+    background: #1a1a1a;
+    padding: 12px 18px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    border-left: 4px solid #1877f2; /* Tom característico do Facebook */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    margin: 10px 0;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.facebook-link-card:hover {
+    background: #252525;
+    transform: translateY(-2px);
+}
+
+.facebook-info span.facebook-tag {
+    color: #b0b0b0;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
+}
+
+.facebook-info a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.facebook-info a:hover {
+    color: #1877f2;
+}
+</style>
+<!-- === FIM DO LINK DO FACEBOOK === -->
 </div></div></section>
 </main>
 
